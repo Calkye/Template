@@ -1,0 +1,79 @@
+.Hero-Container{ 
+  margin-top: 15dvh;
+  display: flex; 
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Hero-Wrapper{
+  display: flex; 
+  gap: 5dvw;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.Hero-Section-Header{
+  display: flex; 
+  box-sizing: content-box;
+  min-height: fit-content;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: space-around;
+  align-items: start;
+  align-content: start;
+}
+
+
+.Hero-Section-Header h3{
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.Hero-Section-Header{
+  background-color: #9C9C9C;
+  width: fit-content; 
+  padding: 4rem;
+  border-radius: 15px;
+  filter: drop-shadow(4px 4px 4px black);
+  height: 25dvh;
+
+}
+
+
+.Hero-Section-Header-Paragraph{
+  font-size: 32px; 
+  font-weight: 700;
+  color: #ffffff;
+  width: calc(100dvw - 70dvw);
+  max-width: 40dvw;
+}
+.Hero-Section-Header-button{
+  align-self: flex-end;
+}
+
+.Hero-Section-Header-button button{ 
+  padding: 1rem 2rem;
+  background-color: #6A6A6A;
+  border: none;
+  filter: drop-shadow(4px 4px 4px #151515);
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.Hero-Section-Content{
+  font-size: 32px; 
+  padding: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+  width: calc(100dvw - 70dvw);
+  max-width: 40dvw;
+  height: 25dvh;
+  background-color: #9C9C9C;
+  border-radius: 15px;
+  filter: drop-shadow(4px 4px 4px black);
+}
