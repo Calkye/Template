@@ -19,7 +19,6 @@
   box-sizing: content-box;
   min-height: fit-content;
   flex-direction: column;
-  gap: 3rem;
   justify-content: space-around;
   align-items: start;
   align-content: start;
@@ -27,20 +26,22 @@
 
 
 .Hero-Section-Header h3{
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
   padding: 0;
   color: #ffffff;
   font-weight: 900;
   font-size: 48px;
+
 }
 
 .Hero-Section-Header{
   background-color: #9C9C9C;
   width: fit-content; 
-  padding: 4rem;
+  padding: 3rem;
   border-radius: 15px;
   filter: drop-shadow(4px 4px 4px black);
-  height: 25dvh;
+  height: 35dvh;
 
 }
 
@@ -51,6 +52,8 @@
   color: #ffffff;
   width: calc(100dvw - 70dvw);
   max-width: 40dvw;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 .Hero-Section-Header-button{
   align-self: flex-end;
@@ -63,16 +66,22 @@
   filter: drop-shadow(4px 4px 4px #151515);
   border-radius: 10px;
   color: #ffffff;
+  font-size: 24px;
+  transition: all 0.1s ease;
+}
+.Hero-Section-Header-button button:hover{ 
+  background-color: #353535;
+  cursor: pointer;
 }
 
 .Hero-Section-Content{
   font-size: 32px; 
-  padding: 4rem;
+  padding: 3rem;
   font-weight: 700;
   color: #ffffff;
   width: calc(100dvw - 70dvw);
   max-width: 40dvw;
-  height: 25dvh;
+  height: 35dvh;
   background-color: #9C9C9C;
   border-radius: 15px;
   filter: drop-shadow(4px 4px 4px black);

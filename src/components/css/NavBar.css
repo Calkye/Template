@@ -8,10 +8,12 @@ nav{
   flex-grow: 1;
   border-radius: 15px;
   filter: drop-shadow(2px 2px 2px);
+  flex-wrap: wrap;
 }
 
 .Main-Nav ul{
-  display: flex; 
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
   list-style: none; 
@@ -27,6 +29,15 @@ nav{
   display: flex; 
   gap: 2rem; 
   margin-right: 2rem;
+  flex-wrap: wrap;
+}
+.Nav-Links li{
+  transition: all 0.15s ease;
+}
+
+.Nav-Links li:hover{ 
+  background-color: #414141;
+  color: #FFFFFF;
 }
 
 .Nav-Links li{
