@@ -1,0 +1,17 @@
+.Card-Container{
+  width: 90dvw; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card-Wrapper{
+  margin-top: 15dvh; 
+  width: 35dvw; 
+  height: 35vh; 
+  background-color: #9C9C9C;
+}
+.Card-Wrapper{
+  box-sizing: border-box;
+  padding: 1rem;
+}
